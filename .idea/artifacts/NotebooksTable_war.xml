@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NotebooksTable:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>NotebooksTable</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="NotebooksTable-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="NotebooksTable:war exploded" />
+    </root>
+  </artifact>
+</component>
